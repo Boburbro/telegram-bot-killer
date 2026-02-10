@@ -7,8 +7,8 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from urllib.error import HTTPError
 
 MAX_WORKERS = 20        
-START_RATE = 1000       
-RATE_STEP = 10        
+START_RATE = 30       
+RATE_STEP = 1        
 MAX_RATE = 20000
 TIMEOUT = 0.1
 
